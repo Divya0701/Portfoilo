@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bg-container p-3" id="bgContainer">
+        <div class="center1" id="spinner">
+            <div class="ring"></div>
+            <div class="text">Loading</div>
+        </div>
+        <nav class="navbar navbar-expand-lg  navbar-light d-none" style="background-color:#747474;background:transparent;opacity:0.9" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">Divy@</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link" id="navItem1" href="#aboutMeSection">About me</a>
+                        <a class="nav-link" href="#skillsSection" id="navItem2">Skills</a>
+                        <a class="nav-link" href="#projectsSection" id="navItem3">Projects</a>
+                        <a class="nav-link" href="#contactMeSection" id="navItem4">Contact me</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="AboutMe-Section d-none" id="aboutMeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-5">
+                        <div class="d-flex">
+                            <h1 class="name-heading">Hi all! I'am Divya</h1>
+                            <div class="smile-icon"><i class="fas fa-smile-beam smile"></i></div>
+                        </div>
+                        <h2 class="name-heading sub">Frontend Developer</h2>
+                        <button class="but"><a class="button" href="https://drive.google.com/file/d/1PU6FPaoywuIcS-rDc-0rm-epiMHagxU7/view?usp=sharing" target="_blank">My Resume</a></button>
+                    </div>
+                    <div class="col-12 col-md-6 mb-5">
+                        <img src="https://res.cloudinary.com/dpoxiuk1g/image/upload/v1622137213/4884785_1_z1x58t.jpg" class="about-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Skills-Section d-none" id="skillsSection">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="name-heading">My Skills</h3>
+                        <div class="d-flex justify-content-center mb-4">
+                            <div class="skills-box">
+                                <p class="skill-item1">HTML</p>
+                                <p class="skill-item2">CSS</p>
+                                <p class="skill-item3">JavaScript</p>
+                                <p class="skill-item4">Bootstrap</p>
+                                <p class="skill-item1">Python</p>
+                                <p class="skill-item2">Java</p>
+                                <p class="skill-item3">C</p>
+                                <p class="skill-item4">Android</p>
+                                <p class="skill-item1">Firebase</p>
+                                <p class="skill-item2">mySql</p>
+                                <p class="skill-item3">Data Structures</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Projects-Section d-none p-4" id="projectsSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mb-3">
+                        <h4 class="name-heading">My Projects</h4>
+                    </div>
+                    <div class="col-12 col-md-3 card1 mb-5 ml-4">
+                        <h5 class="pro-heading1">WikiPedia Search Application</h5>
+                        <p class="pro-para">In this project i have created an application using javascript api,it gives related results and articles
+                            which are searched on search bar,Click below to check out.</p>
+                        <div class="end">
+                            <a href="https://github.com/Divya0701/WikipediaSearch.git" class="pro-button1" target="_blank">Click here</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card2 mb-5 ml-4">
+                        <h5 class="pro-heading2">TodoList Application</h5>
+                        <p class="pro-para">In this project i have created an application using javascript local storage,it stores user actions in TodoList like removing and adding tasks in list
+                            ,Click below to check out.</p>
+                        <div class="end">
+                            <a class="pro-button2" href="https://github.com/Divya0701/TodoList.git" target="_blank">Click here</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card3 mb-5 ml-4">
+                        <h5 class="pro-heading3">Festival website</h5>
+                        <p class="pro-para">In this project i described the importance and what people actually do on the
+                            occation of pongal,Click below to check out.</p>
+                        <div class="end">
+                            <a class="pro-button3" href="https://github.com/Divya0701/Pongal.git" target="_blank">Click here</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card1 mb-5 ml-4">
+                        <h5 class="pro-heading1">Spam detecter</h5>
+                        <p class="pro-para">In this project i have used machine learning for the classification of spam and ham messages using Django I have created an interface.</p>
+                        <div class="end">
+                            <a class="pro-button1" href="https://github.com/Divya0701/miniProject.git" target="_blank">Click here</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-3 card2 mb-5 ml-4">
+                        <h5 class="pro-heading2">Sentiment Analysis</h5>
+                        <p class="pro-para">Using machine learning, I have created an model that analyses whether the given
+                            text is positive or negative using past training data.</p>
+                        <div class="end">
+                            <button class="pro-button2">Click here</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ContactMe-Section d-none" id="contactMeSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="follow-us-section-heading">Contact Me</h1>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex flex-row justify-content-center">
+
+                            <div class="follow-us-icon-container">
+                                <a href="https://www.linkedin.com/in/divya-yarra-017/" target="_blank"><i class="fab fa-linkedin icon"></i></a>
+                            </div>
+                            <div class="follow-us-icon-container">
+                                <a href="https://github.com/Divya0701" target="_blank"><i class="fab fa-github icon"></i></a>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="footer">
+
+                            <p class="footer-item">Divya Yarra</p>
+
+                            <p class="footer-item">divyayarra11@gmail.com</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
