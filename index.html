@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<link rel="stylesheet" href="Portfiolo.css">
     <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -155,6 +156,28 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+    	let spinnerEl = document.getElementById("spinner");
+		let navbarEl = document.getElementById("navbar");
+		let aboutMeSectionEl = document.getElementById("aboutMeSection");
+		let skillsSectionEl = document.getElementById("skillsSection");
+		let projectsSectionEl = document.getElementById("projectsSection");
+		let contactMeSectionEl = document.getElementById("contactMeSection");
+		let count = 0;
+		let interval = setInterval(function() {
+		    count = count + 1;
+		    if (count === 2) {
+		        clearInterval(interval);
+		        spinnerEl.classList.add("d-none");
+		        navbarEl.classList.remove("d-none");
+		        aboutMeSectionEl.classList.remove("d-none");
+		        skillsSectionEl.classList.remove("d-none");
+		        projectsSectionEl.classList.remove("d-none");
+		        contactMeSectionEl.classList.remove("d-none");
+		        console.log(aboutMeSectionEl);
+		    }
+		}, 1000);
+    </script>
 
 </body>
 
