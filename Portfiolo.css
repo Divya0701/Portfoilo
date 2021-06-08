@@ -25,6 +25,9 @@ body{
 .about-img {
     width: 90%;
 }
+.AboutMe-Section{
+    height:100vh
+}
 
 .sub {
     font-size: 26px;
